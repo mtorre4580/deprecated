@@ -6,8 +6,8 @@ module.exports = defineConfig({
   build: {
     lib: {
       entry: path.resolve(__dirname, 'lib/main.js'),
-      name: 'deprecated"',
-      fileName: (format) => `deprecated.${format}.js`,
+      name: 'is-deprecated"',
+      fileName: (format) => `is-deprecated.${format}.js`,
     },
   },
 });
