@@ -1,4 +1,4 @@
-# deprecated
+# is-deprecated
 
 A utility library designed to notify about deprecated functions or methods within objects.
 
@@ -7,7 +7,7 @@ A utility library designed to notify about deprecated functions or methods withi
 ## Installation
 
 ```
-npm i deprecated
+npm i @mtorre4580/is-deprecated
 ```
 
 ## Parameters
