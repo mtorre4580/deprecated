@@ -1,5 +1,5 @@
 {
-  "name": "deprecated",
+  "name": "@mtorre4580/is-deprecated",
   "version": "0.0.1",
   "description": "Library to deprecated properties and methods in objects or functions",
   "license": "MIT",
