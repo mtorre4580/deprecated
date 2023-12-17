@@ -1,4 +1,4 @@
-const deprecated = require('../lib');
+const deprecated = require('../lib/main');
 
 describe('deprecated', () => {
   describe('function flow', () => {

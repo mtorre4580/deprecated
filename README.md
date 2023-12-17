@@ -2,7 +2,7 @@
 
 A utility library designed to notify about deprecated functions or methods within objects.
 
-![Logo](https://github.com/mtorre4580/is-deprecated/blob/main/deprecated.png?raw=true)
+<img  width="128" height="128" src="https://github.com/mtorre4580/is-deprecated/blob/main/deprecated.png?raw=true" />
 
 ## Installation
 
@@ -39,10 +39,10 @@ const config = {
 };
 
 // Create the wrapper to use
-const deprecatedMyFunction = deprecated(fn, config);
+const deprecatedMyFunction = deprecated(myFunction, config);
 
 // Call the wrapper function to see the warning
-deprecatedMyFunction(arg1, arg2);
+deprecatedMyFunction('', {});
 ```
 
 ### With Function in Object
@@ -83,5 +83,5 @@ const users = await APIWithDeprecated.getUsers();
 
 - To building time use the jsdoc decorator [@deprecated](https://jsdoc.app/tags-deprecated) in the code
 - To runtime use the function from this lib `deprecated` to notify in the console
-- The sendMetrics function allows to get more insight what app,frontend or api is using the deprecated lib to notify
-- You can use any env variable to apply the wrapper or not to avoid validation only for development, staging environment
+- The sendMetrics function allows to get more insight what app is using the deprecated method to notify the team
+- You can use any environment variable to apply the wrapper or not, if you only need to run in development or staging
