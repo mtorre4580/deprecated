@@ -1,0 +1,24 @@
+# dependencies
+/node_modules
+
+# testing
+/coverage
+test-report.xml
+
+# build
+dist
+
+# misc
+.DS_Store
+
+# debug
+yarn-debug.log*
+yarn-error.log*
+
+# profiling
+isolate-0x*-v8.log
+profiler_status.txt
+
+# npm , yarn
+.npmrc
+.yalc
