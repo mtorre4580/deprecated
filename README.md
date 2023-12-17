@@ -1,13 +1,13 @@
-# is-deprecated
+# deprecated
 
 A utility library designed to notify about deprecated functions or methods within objects.
 
-<img  width="128" height="128" src="https://github.com/mtorre4580/is-deprecated/blob/main/deprecated.png?raw=true" />
+<img  width="128" height="128" src="https://github.com/mtorre4580/deprecated/blob/main/deprecated.png?raw=true" />
 
 ## Installation
 
 ```
-npm i is-deprecated
+npm i deprecated
 ```
 
 ## Parameters
@@ -27,7 +27,7 @@ Function to notify about deprecation and wrap the function/method with deprecati
 ### With Function
 
 ```js
-import deprecated from "is-deprecated";
+import deprecated from "deprecated";
 
 // Function to add the deprecated helper
 const myFunction = (arg1, arg2) => {};
@@ -48,7 +48,7 @@ deprecatedMyFunction('', {});
 ### With Function in Object
 
 ```js
-import deprecated from "is-deprecated";
+import deprecated from "deprecated";
 
 // Object to apply the deprecated method
 const API = {
