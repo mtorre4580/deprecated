@@ -13,14 +13,18 @@
   },
   "keywords": [
     "deprecated",
-    "deprecated",
     "javascript",
-    "nodejs"
+    "nodejs",
+    "functions",
+    "methods",
+    "utility"
   ],
   "author": "mtorre4580",
-  "files":["dist"],
-  "main":"./dist/deprecated.umd.js",
-  "module":"./dist/deprecated.es.js",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/deprecated.umd.js",
+  "module": "./dist/deprecated.es.js",
   "exports": {
     ".": {
       "import": "./dist/deprecated.es.js",

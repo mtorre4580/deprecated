@@ -24,10 +24,12 @@ npm i deprecated
 
 Function to notify about deprecation and wrap the function/method with deprecation warnings.
 
+<img alt="example usage" src="https://github.com/mtorre4580/deprecated/blob/main/example_usage.png?raw=true" />
+
 ### With Function
 
 ```js
-import deprecated from "deprecated";
+import deprecated from "@mtorre4580/is-deprecated";
 
 // Function to add the deprecated helper
 const myFunction = (arg1, arg2) => {};
@@ -48,14 +50,14 @@ deprecatedMyFunction('', {});
 ### With Function in Object
 
 ```js
-import deprecated from "deprecated";
+import deprecated from "@mtorre4580/is-deprecated";
 
 // Object to apply the deprecated method
 const API = {
   timeout: 5000,
   getUsers() {
-    return new Promise((resolve, reject) => {
-      setTimeOut(() => {
+    return new Promise((resolve) => {
+      setTimeout(() => {
         resolve([
           { id: 2, name: "Matias" },
           { id: 3, name: "Belen" },
