@@ -80,7 +80,7 @@
       </p>
     </section>
     <script type="module">
-      import deprecated from "./dist/deprecated.es.js";
+      import deprecated from "./dist/is-deprecated.es.js";
 
       // Function to add the deprecated helper
       const myFunction = (arg1, arg2) => {};
@@ -89,6 +89,19 @@
       const config = {
         message:
           "myFunction will be removed in the next release, please replace with this https://www.npmjs.com",
+        sendMetrics() {
+          setTimeout(() => {
+            const metric = {
+              name: 'deprecated_apis',
+              tags: {
+                method: 'myFunction',
+                app: 'frontend-checkout',
+                package: '@fake-ui/utils'
+              }
+            }
+            console.info("Sending metric like hot-shots", metric);
+          }, 1000);
+        },
       };
 
       // Create the wrapper to use
