@@ -2,7 +2,7 @@
 
 A utility library designed to notify about deprecated functions or methods within objects.
 
-<img  width="128" height="128" src="https://github.com/mtorre4580/deprecated/blob/main/deprecated.png?raw=true" />
+<img  width="128" height="128" src="https://github.com/mtorre4580/is-deprecated/blob/main/deprecated.png?raw=true" />
 
 ## Installation
 
@@ -24,7 +24,7 @@ npm i @mtorre4580/is-deprecated
 
 Function to notify about deprecation and wrap the function/method with deprecation warnings.
 
-<img alt="example usage" src="https://github.com/mtorre4580/deprecated/blob/main/example_usage.png?raw=true" />
+<img alt="example usage" src="https://github.com/mtorre4580/is-deprecated/blob/main/example_usage.png?raw=true" />
 
 ### With Function
 

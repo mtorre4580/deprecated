@@ -1,15 +1,15 @@
 {
   "name": "@mtorre4580/is-deprecated",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Library to deprecated properties and methods in objects or functions",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mtorre4580/deprecated"
+    "url": "https://github.com/mtorre4580/is-deprecated"
   },
-  "homepage": "https://github.com/mtorre4580/deprecated/blob/main/README.md",
+  "homepage": "https://github.com/mtorre4580/is-deprecated/blob/main/README.md",
   "bugs": {
-    "url": "https://github.com/mtorre4580/deprecated/issues"
+    "url": "https://github.com/mtorre4580/is-deprecated/issues"
   },
   "keywords": [
     "deprecated",
@@ -23,12 +23,12 @@
   "files": [
     "dist"
   ],
-  "main": "./dist/deprecated.umd.js",
-  "module": "./dist/deprecated.es.js",
+  "main": "./dist/is-deprecated.umd.js",
+  "module": "./dist/is-deprecated.es.js",
   "exports": {
     ".": {
-      "import": "./dist/deprecated.es.js",
-      "require": "./dist/deprecated.umd.js"
+      "import": "./dist/is-deprecated.es.js",
+      "require": "./dist/is-deprecated.umd.js"
     }
   },
   "scripts": {
